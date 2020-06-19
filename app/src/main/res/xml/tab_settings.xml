@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Menu Paman">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="Switch Toast to Notifikasi"
+            android:key="@string/key_switch"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Umum">
+
+        <Preference
+            android:title="About"
+            android:key="@string/key_about"
+            android:summary="Berisi tentang keterangan"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
